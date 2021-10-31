@@ -538,6 +538,7 @@ Config.ClothingRooms = {
     [5] = {requiredJob = "ambulance", coords = vector3(-1098.45, 1751.71, 23.35), cameraLocation = vector4(-1097.15, 1750.19,  23.35, 38.70)},    
     [6] = {requiredJob = "police", coords = vector3(-77.59, -129.17, 5.03), cameraLocation = vector4(-80.36,  -130.76,  5.03,  300.44)},
     [7] = {requiredJob = "police", coords = vector3(-1092.3, -826.42, 26.83), cameraLocation = vector4(-1094.14,  -825.62,  26.83,  255.94)},
+    [8] = {requiredJob = "lsfd", coords = vector3(1193.99, -1480.84, 34.86), cameraLocation = vector4(1196.24, -1480.77, 34.86, 86.37)},
 }
 
 Config.Outfits = {
@@ -702,6 +703,44 @@ Config.Outfits = {
                     ["hat"]         = { item = 149, texture = 0},  -- Hat
                     ["glass"]       = { item = 0, texture = 0},  -- Glasses
                     ["mask"]        = { item = 35, texture = 0},  -- Mask
+                },
+            },
+        }
+    },
+    ["lsfd"] = {
+        ["male"] = {
+            [1] = {
+                outfitLabel = "Firefighter Full",
+                outfitData = {
+                    ["pants"]       = { item = 18, texture = 0},  -- Pants
+                    ["arms"]        = { item = 240, texture = 0},  -- Arms
+                    ["t-shirt"]     = { item = 48, texture = 0},  -- T Shirt
+                    ["vest"]        = { item = 0, texture = 0},  -- Body Vest
+                    ["torso2"]      = { item = 64, texture = 0},  -- Jacket
+                    ["shoes"]       = { item = 74, texture = 0},  -- Shoes
+                    ["accessory"]   = { item = 0, texture = 0},  -- Neck Accessory
+                    ["bag"]         = { item = 0, texture = 0},  -- Bag
+                    ["hat"]         = { item = 44, texture = 0},  -- Hat
+                    ["glass"]       = { item = 5, texture = 0},  -- Glasses
+                    ["mask"]        = { item = 0, texture = 0},  -- Mask
+                },
+            },
+        },
+        ["female"] = {
+            [1] = {
+                outfitLabel = "Firefighter Full",
+                outfitData = {
+                    ["pants"]       = { item = 18, texture = 0},  -- Pants
+                    ["arms"]        = { item = 240, texture = 0},  -- Arms
+                    ["t-shirt"]     = { item = 48, texture = 0},  -- T Shirt
+                    ["vest"]        = { item = 0, texture = 0},  -- Body Vest
+                    ["torso2"]      = { item = 64, texture = 0},  -- Jacket
+                    ["shoes"]       = { item = 74, texture = 0},  -- Shoes
+                    ["accessory"]   = { item = 0, texture = 0},  -- Neck Accessory
+                    ["bag"]         = { item = 0, texture = 0},  -- Bag
+                    ["hat"]         = { item = 44, texture = 0},  -- Hat
+                    ["glass"]       = { item = 5, texture = 0},  -- Glasses
+                    ["mask"]        = { item = 0, texture = 0},  -- Mask
                 },
             },
         }
