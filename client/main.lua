@@ -567,7 +567,7 @@ function GetMaxValues()
         ["bag"]         = {type = "character", item = 0, texture = 0},
         ["moles"]       = {type = "face", item = 0, texture = 0},
         ["hair"]        = {type = "hair", item = 0, texture = 0},
-        ["eyebrows"]    = {type = "face", item = 0, texture = 0},
+        ["eyebrows"]    = {type = "hair", item = 0, texture = 0},
         ["beard"]       = {type = "hair", item = 0, texture = 0},
         ["eye_opening"]   = {type = "face",  id = 1},
         ["jaw_bone_width"]       = {type = "face", item = 0, texture = 0},
