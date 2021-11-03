@@ -339,7 +339,6 @@ QBClothing.Open = function(data) {
 
     $(".clothing-menu-roomOutfits-container").css("display", "none");
     $(".clothing-menu-myOutfits-container").css("display", "none");
-    $(".clothing-menu-face-container").css("display", "none");
     $(".clothing-menu-character-container").css("display", "none");
     $(".clothing-menu-clothing-container").css("display", "none");
     $(".clothing-menu-accessoires-container").css("display", "none");
@@ -424,7 +423,6 @@ QBClothing.Close = function() {
     $(".change-camera-buttons").fadeOut(150);
     $(".clothing-menu-roomOutfits-container").css("display", "none");
     $(".clothing-menu-myOutfits-container").css("display", "none");
-    $(".clothing-menu-face-container").css("display", "none");
     $(".clothing-menu-character-container").css("display", "none");
     $(".clothing-menu-clothing-container").css("display", "none");
     $(".clothing-menu-accessoires-container").css("display", "none");
@@ -462,17 +460,6 @@ QBClothing.SetMaxValues = function(maxValues) {
     
             $(itemMax).html("<p>Item: " + maxValues[containers.data('type')].item + "</p>")
             $(headerMax).html("<p>Texture: " + maxValues[containers.data('type')].texture + "</p>")
-        } else if (cat.type == "face") {
-            var containers = $(".clothing-menu-face-container").find('[data-type="'+i+'"]');
-            var itemMax = $(containers).find('[data-headertype="item-header"]');
-            var headerMax = $(containers).find('[data-headertype="texture-header"]');
-        
-            $(itemMax).data('maxItem', maxValues[containers.data('type')].item)
-            $(headerMax).data('maxTexture', maxValues[containers.data('type')].texture)
-        
-            $(itemMax).html("<p>Item: " + maxValues[containers.data('type')].item + "</p>")
-            $(headerMax).html("<p>Texture: " + maxValues[containers.data('type')].texture + "</p>")
-        
         } else if (cat.type == "accessoires") {
             var containers = $(".clothing-menu-accessoires-container").find('[data-type="'+i+'"]');
             var itemMax = $(containers).find('[data-headertype="item-header"]');
