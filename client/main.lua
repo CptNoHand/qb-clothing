@@ -1559,7 +1559,8 @@ AddEventHandler('qb-clothes:client:CreateFirstCharacter', function()
         openMenu({
             {menu = "character", label = "Character", selected = true},
             {menu = "clothing", label = "Features", selected = false},
-            {menu = "accessoires", label = "Accessories", selected = false}
+            {menu = "accessoires", label = "Accessories", selected = false},
+            {menu = "changeped", label = "Ped", selected = false}
         })
 
         if PlayerData.charinfo.gender == 1 then 
