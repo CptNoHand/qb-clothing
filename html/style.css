@@ -222,17 +222,6 @@
     overflow-y: scroll !important;
 }
 
-.clothing-menu-changeped-container {
-    display: none;
-    position: absolute;
-    margin: 0 auto;
-    left: 0.3vh;
-    right: 0;
-    top: 9vh;
-    height: 77vh;
-    width: 92%;
-    overflow-y: scroll !important;
-}
 
 ::-webkit-scrollbar-track
 {
