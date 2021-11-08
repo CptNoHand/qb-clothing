@@ -712,15 +712,15 @@ Config.Outfits = {
             [1] = {
                 outfitLabel = "Firefighter Full",
                 outfitData = {
-                    ["pants"]       = { item = 18, texture = 0},  -- Pants
-                    ["arms"]        = { item = 240, texture = 0},  -- Arms
-                    ["t-shirt"]     = { item = 48, texture = 0},  -- T Shirt
+                    ["pants"]       = { item = 120, texture = 0},  -- Pants
+                    ["arms"]        = { item = 196, texture = 0},  -- Arms
+                    ["t-shirt"]     = { item = 68, texture = 0},  -- T Shirt
                     ["vest"]        = { item = 0, texture = 0},  -- Body Vest
-                    ["torso2"]      = { item = 64, texture = 0},  -- Jacket
-                    ["shoes"]       = { item = 74, texture = 0},  -- Shoes
+                    ["torso2"]      = { item = 314, texture = 0},  -- Jacket
+                    ["shoes"]       = { item = 71, texture = 0},  -- Shoes
                     ["accessory"]   = { item = 0, texture = 0},  -- Neck Accessory
                     ["bag"]         = { item = 0, texture = 0},  -- Bag
-                    ["hat"]         = { item = 44, texture = 0},  -- Hat
+                    ["hat"]         = { item = 45, texture = 0},  -- Hat
                     ["glass"]       = { item = 5, texture = 0},  -- Glasses
                     ["mask"]        = { item = 0, texture = 0},  -- Mask
                 },
