@@ -2,7 +2,7 @@ Config = Config or {}
 
 Config.WomanPlayerModels = {
     'mp_f_freemode_01',
-   --[[ 'a_f_m_beach_01',
+    'a_f_m_beach_01',
     'a_f_m_bevhills_01',
     'a_f_m_bevhills_02',
     'a_f_m_bodybuild_01',
@@ -76,7 +76,7 @@ Config.WomanPlayerModels = {
     'mp_f_deadhooker',
     'mp_f_freemode_01',
     'mp_f_misty_01',
-    --'mp_f_stripperlite',
+    'mp_f_stripperlite',
     'mp_s_m_armoured_01',
     's_f_m_fembarber',
     's_f_m_maid_01',
@@ -140,12 +140,12 @@ Config.WomanPlayerModels = {
     's_f_y_sweatshop_01',
     'ig_paige',
     'a_f_y_femaleagent',
-    'a_f_y_hippie_01' ]]--
+    'a_f_y_hippie_01'
 }
     
 Config.ManPlayerModels = {
     'mp_m_freemode_01',
- --[[   'ig_trafficwarden',
+    'ig_trafficwarden',
     'ig_bankman',
     'ig_barry',
     'ig_bestmen',
@@ -184,7 +184,7 @@ Config.ManPlayerModels = {
     'ig_old_man1a',
     'ig_old_man2',
     'ig_oneil',
-    -- 'ig_orleans',
+    'ig_orleans',
     'ig_ortega',
     'ig_paper',
     'ig_priest',
@@ -500,7 +500,7 @@ Config.ManPlayerModels = {
     'ig_car3guy1_m',
     'tony',
     'g_m_m_chigoon_02_m',
-	'a_m_o_acult_01', ]]--
+	'a_m_o_acult_01',
 }
 
 Config.LoadedManModels = {}
