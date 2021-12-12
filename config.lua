@@ -503,6 +503,9 @@ Config.ManPlayerModels = {
 	'a_m_o_acult_01',
     'creature01',
     'executioner',
+    'Venom',
+	'pennywise',
+    'wick2',
 }
 
 Config.LoadedManModels = {}
