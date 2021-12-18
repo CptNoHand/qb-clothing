@@ -536,13 +536,13 @@ Config.Stores = {
 }
 
 Config.ClothingRooms = {
-    [1] = {requiredJob = "police", coords = vector3(360.39, -1593.71, 25.45), cameraLocation = vector4(361.79, -1591.97, 25.45, 138.78)},
-    [2] = {requiredJob = "ambulance", coords = vector3(301.16, -599.96, 43.28), cameraLocation = vector4(301.91, -598.23, 43.28, 162.77)}, -- Right double door in Hospital Map that is on QBCore GitHub
-    [3] = {requiredJob = "police", coords = vector3(463.21, -996.54, 30.69), cameraLocation = vector4(461.25, -996.52, 30.69, 267.7)},
+    [1] = {requiredJob = "police", coords = vector3(360.39, -1593.71, 25.45), cameraLocation = vector4(361.79, -1591.97, 25.45, 318.78)},
+    [2] = {requiredJob = "ambulance", coords = vector3(301.16, -599.96, 43.28), cameraLocation = vector4(301.86, -598.13, 43.28, 335.51)}, -- Right double door in Hospital Map that is on QBCore GitHub
+    [3] = {requiredJob = "police", coords = vector3(463.21, -996.54, 30.69), cameraLocation = vector4(461.25, -996.52, 30.69, 87.7)},
     [4] = {requiredJob = "ambulance", coords = vector3(338.70, 659.61, 14.71), cameraLocation = vector4(339.27,  661.63,  14.71,  315.5)},    
     [5] = {requiredJob = "ambulance", coords = vector3(-1098.45, 1751.71, 23.35), cameraLocation = vector4(-1097.15, 1750.19,  23.35, 38.70)},    
-    [6] = {requiredJob = "police", coords = vector3(-436.5, 6010.6, 37.0), cameraLocation = vector4(-438.04, 6009.12, 37.0, 315.95)},
-    [7] = {requiredJob = "police", coords = vector3(-2228.65, -369.39, 13.32), cameraLocation = vector4(-2226.6, -370.05, 13.32, 68.9)},
+    [6] = {requiredJob = "police", coords = vector3(-436.5, 6010.6, 37.0), cameraLocation = vector4(-438.04, 6009.12, 37.0, 135.95)},
+    [7] = {requiredJob = "police", coords = vector3(-2228.65, -369.39, 13.32), cameraLocation = vector4(-2226.6, -370.05, 13.32, 248.9)},
     [8] = {requiredJob = "lsfd", coords = vector3(-630.81, -124.7, 39.22), cameraLocation = vector4(-628.16, -121.52, 39.22, 137.39)},
     [9] = {requiredJob = "rockdordrecords", coords = vector3(-1010.66, -276.42, 39.04), cameraLocation = vector4(-1008.8, -277.53, 39.04, 57.26)},
     [10] = {requiredJob = "lscustoms", coords = vector3(-339.77, -162.2, 44.59), cameraLocation = vector4(-338.59, -161.58, 44.59, 111.48)},
