@@ -544,7 +544,6 @@ Config.ClothingRooms = {
     [6] = {requiredJob = "police", coords = vector3(-436.5, 6010.6, 37.0), cameraLocation = vector4(-438.04, 6009.12, 37.0, 135.95)},
     [7] = {requiredJob = "police", coords = vector3(-2228.65, -369.39, 13.32), cameraLocation = vector4(-2226.6, -370.05, 13.32, 248.9)},
     [8] = {requiredJob = "lsfd", coords = vector3(-630.81, -124.7, 39.22), cameraLocation = vector4(-628.16, -121.52, 39.22, 137.39)},
-    [9] = {requiredJob = "rockdordrecords", coords = vector3(-1010.66, -276.42, 39.04), cameraLocation = vector4(-1008.8, -277.53, 39.04, 57.26)},
     [10] = {requiredJob = "lscustoms", coords = vector3(-339.77, -162.2, 44.59), cameraLocation = vector4(-338.59, -161.58, 44.59, 111.48)},
     [11] = {requiredJob = "redline", coords = vector3(-602.18, -913.92, 23.89), cameraLocation = vector4(-602.09, -915.79, 23.89, 344.85)},
 }
@@ -861,6 +860,90 @@ Config.Outfits = {
                     ["shoes"]       = { item = 29,  texture = 0 },  -- Shoes
                     ["mask"]        = { item = 0,   texture = 0 },  -- Mask
                     ["hat"]         = { item = -1,  texture = 0 },  -- Hat
+                    ["glass"]       = { item = 0,   texture = 0 },  -- Glasses
+                    ["ear"]         = { item = 0,   texture = 0 },  -- Ear accessories
+                },
+            },
+        },
+    },
+    ["redline"] = {
+        ["male"] = {
+            [1] = {
+                outfitLabel = "Arbeitskleidung",
+                outfitData = {
+                    ["arms"]        = { item = 11,  texture = 0 },  -- Arms
+                    ["t-shirt"]     = { item = 2, texture = 6 },  -- T-Shirt
+                    ["torso2"]      = { item = 126, texture = 11 },  -- Jackets
+                    ["vest"]        = { item = 0,   texture = 0 },  -- Vest
+                    ["decals"]      = { item = 0,  texture = 0 },  -- Decals
+                    ["accessory"]   = { item = 0, texture = 0 },  -- Neck
+                    ["bag"]         = { item = 0,   texture = 0 },  -- Bag
+                    ["pants"]       = { item = 97,  texture = 23 },  -- Pants
+                    ["shoes"]       = { item = 72,  texture = 17 },  -- Shoes
+                    ["mask"]        = { item = 0, texture = 0 },  -- Mask
+                    ["hat"]         = { item = 0, texture = 0 },  -- Hat
+                    ["glass"]       = { item = 0,   texture = 0 },  -- Glasses
+                    ["ear"]         = { item = 0,   texture = 0 },  -- Ear accessories
+                },
+            },
+        },
+        ["female"] = {
+            [1] = {
+                outfitLabel = "T-Shirt",
+                outfitData = {
+                    ["arms"]        = { item = 109, texture = 0 },  -- Arms
+                    ["t-shirt"]     = { item = 159, texture = 0 },  -- T-Shirt
+                    ["torso2"]      = { item = 258, texture = 0 },  -- Jackets
+                    ["vest"]        = { item = 0,   texture = 0 },  -- Vest
+                    ["decals"]      = { item = 66,  texture = 0 },  -- Decals
+                    ["accessory"]   = { item = 97,  texture = 0 },  -- Neck
+                    ["bag"]         = { item = 0,   texture = 0 },  -- Bag
+                    ["pants"]       = { item = 99,  texture = 0 },  -- Pants
+                    ["shoes"]       = { item = 55,  texture = 0 },  -- Shoes
+                    ["mask"]        = { item = 121, texture = 0 },  -- Mask
+                    ["hat"]         = { item = 121, texture = 0 },  -- Hat
+                    ["glass"]       = { item = 0,   texture = 0 },  -- Glasses
+                    ["ear"]         = { item = 0,   texture = 0 },  -- Ear accessories
+                },
+            },
+        },
+    },
+    ["lscustoms"] = {
+        ["male"] = {
+            [1] = {
+                outfitLabel = "Arbeitskleidung",
+                outfitData = {
+                    ["arms"]        = { item = 0,  texture = 0 },  -- Arms
+                    ["t-shirt"]     = { item = 15, texture = 0 },  -- T-Shirt
+                    ["torso2"]      = { item = 387, texture = 3 },  -- Jackets
+                    ["vest"]        = { item = 0,   texture = 0 },  -- Vest
+                    ["decals"]      = { item = 0,  texture = 0 },  -- Decals
+                    ["accessory"]   = { item = 0, texture = 0 },  -- Neck
+                    ["bag"]         = { item = 0,   texture = 0 },  -- Bag
+                    ["pants"]       = { item = 97,  texture = 24 },  -- Pants
+                    ["shoes"]       = { item = 72,  texture = 19 },  -- Shoes
+                    ["mask"]        = { item = 0, texture = 0 },  -- Mask
+                    ["hat"]         = { item = 0, texture = 0 },  -- Hat
+                    ["glass"]       = { item = 0,   texture = 0 },  -- Glasses
+                    ["ear"]         = { item = 0,   texture = 0 },  -- Ear accessories
+                },
+            },
+        },
+        ["female"] = {
+            [1] = {
+                outfitLabel = "T-Shirt",
+                outfitData = {
+                    ["arms"]        = { item = 109, texture = 0 },  -- Arms
+                    ["t-shirt"]     = { item = 159, texture = 0 },  -- T-Shirt
+                    ["torso2"]      = { item = 258, texture = 0 },  -- Jackets
+                    ["vest"]        = { item = 0,   texture = 0 },  -- Vest
+                    ["decals"]      = { item = 66,  texture = 0 },  -- Decals
+                    ["accessory"]   = { item = 97,  texture = 0 },  -- Neck
+                    ["bag"]         = { item = 0,   texture = 0 },  -- Bag
+                    ["pants"]       = { item = 99,  texture = 0 },  -- Pants
+                    ["shoes"]       = { item = 55,  texture = 0 },  -- Shoes
+                    ["mask"]        = { item = 121, texture = 0 },  -- Mask
+                    ["hat"]         = { item = 121, texture = 0 },  -- Hat
                     ["glass"]       = { item = 0,   texture = 0 },  -- Glasses
                     ["ear"]         = { item = 0,   texture = 0 },  -- Ear accessories
                 },
