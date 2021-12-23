@@ -796,6 +796,24 @@ Config.Outfits = {
                     ["arms"]        = { item = 88,  texture = 0 },  -- Arms
                     ["t-shirt"]     = { item = 15,  texture = 0 },  -- T-Shirt
                     ["torso2"]      = { item = 118, texture = 6 },  -- Jackets
+                    ["vest"]        = { item = 2,   texture = 0 },  -- Vest
+                    ["decals"]      = { item = 0,  texture = 0 },  -- Decals
+                    ["accessory"]   = { item = 0, texture = 0 },  -- Neck
+                    ["bag"]         = { item = 0,   texture = 0 },  -- Bag
+                    ["pants"]       = { item = 13,  texture = 3 },  -- Pants
+                    ["shoes"]       = { item = 32,  texture = 1 },  -- Shoes
+                    ["mask"]        = { item = 121, texture = 0 },  -- Mask
+                    ["hat"]         = { item = 122, texture = 0 },  -- Hat
+                    ["glass"]       = { item = 0,   texture = 0 },  -- Glasses
+                    ["ear"]         = { item = 0,   texture = 0 },  -- Ear accessories
+                },
+            },
+            [4] = {
+                outfitLabel = "Polo Doctor",
+                outfitData = {
+                    ["arms"]        = { item = 88,  texture = 0 },  -- Arms
+                    ["t-shirt"]     = { item = 15,  texture = 0 },  -- T-Shirt
+                    ["torso2"]      = { item = 118, texture = 6 },  -- Jackets
                     ["vest"]        = { item = 0,   texture = 0 },  -- Vest
                     ["decals"]      = { item = 0,  texture = 0 },  -- Decals
                     ["accessory"]   = { item = 30, texture = 0 },  -- Neck
